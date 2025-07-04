@@ -1,0 +1,29 @@
+# Archivos de entorno de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*build*/
+*dist*/
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Resultados y artefactos generados por la plataforma
+outputs/
+
+# Datos crudos (¡importante!)
+data/raw/
+data/gis/
+data/processed/
+
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
